@@ -1,0 +1,298 @@
+body {font-family: "canvas-script", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 200px;
+      margin-top: -10px} 
+
+body {background-image: url('hintergrund.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;}
+
+
+p {font-size: 14px;
+   margin-top: 75px;
+   font-family: helvetica;
+   margin-left: 150px;
+   margin-right: 150px;
+   color: #C2107F}
+
+div4 p {margin-top: -50px}
+
+h1 {color: #C2107F;
+    font-size: 170px;
+    margin-top: 50px}
+
+h2 {color: #F59FD4;
+    font-size: 170px;
+    margin-top: -350px}
+
+h3 {color: #C2107F;
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: -180px}
+
+h4 {color: #F59FD4;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: -130px}
+
+.text {font-family: helvetica;
+   margin-left: 150px;
+   margin-right: 720px;
+   margin-top: 0px;
+   font-size: 14px;
+   color: #C2107F}
+
+.text2 {font-family: helvetica;
+   margin-left: 700px;
+   margin-right: 150px;
+   margin-top: -350px;
+   font-size: 14px;
+   color: #C2107F}
+
+.text3 {font-family: helvetica;
+   margin-left: 500px;
+   margin-right: 350px;
+   margin-top: -50px;
+   font-size: 14px;
+   color: #C2107F}
+
+.text4 {font-family: helvetica;
+   margin-left: 150px;
+   margin-right: 720px;
+   margin-top: 100px;
+   font-size: 14px;
+   color: #C2107F}
+
+td {font-family: helvetica;
+    font-size: 14px;
+    color: #C2107F}
+
+th {font-size: 20px}
+
+.tabelle2 th {font-family: helvetica;
+    font-size: 14px;
+    color: #C2107F;
+    text-align: left}
+
+table {margin-top: -100px;
+       height: 150%;
+       width: 40%}
+
+.tabelle2 {margin-top: -100px;
+          margin-left: 600px;
+          font-family: helvetica;
+          font-size: 14px;
+          width: 20%}
+
+.tabelle3 {margin-top: 100px;
+          margin-left: 50px;
+          font-family: helvetica;
+          font-size: 16px;
+          width: 50%}
+
+.tabelle3 th {font-family: helvetica;
+    font-size: 16px;
+    color: #C2107F;
+    text-align: left}
+
+.tabelle3 td {font-family: helvetica;
+    font-size: 16px;
+    color: #C2107F}
+
+a {text-decoration: none;
+   color: #F59FD4}
+
+li {color: #F59FD4;
+    float: left}
+
+li a {display: block;
+      color: #F59FD4;
+      padding:20px 22px;
+      text-decoration: none;
+      font-size: 20px}
+
+li a:hover {background-color: #941864}
+
+ul {list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;  
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    zindex: 1000;
+    overflow: hidden;
+    background-color: #C2107F}
+
+.container {display: flex;
+        overflow-x: auto;
+        gap: 30px;
+        padding: 10px;
+        scroll-behavior: smooth;
+        margin-top: 100px;
+        margin-bottom: 100px}
+
+.container::-webkit-scrollbar 
+       {background: #F59FD4;
+        height: 10px}
+
+.container::-webkit-scrollbar-thumb
+       {background: #C2107F}
+
+.item {flex: 0 0 auto;
+        width: 650px;
+        height: 500px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: #C2107F}
+
+.item img {width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block}
+
+.container2 {display: flex;
+        overflow-x: auto;
+        gap: 30px;
+        padding: 10px;
+        scroll-behavior: smooth;
+        margin-top: 0px;
+        margin-bottom: 100px}
+
+.container2::-webkit-scrollbar 
+       {background: #F59FD4;
+        height: 10px}
+
+.container2::-webkit-scrollbar-thumb
+       {background: #C2107F}
+
+.item2 {flex: 0 0 auto;
+        width: 650px;
+        height: 500px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: #C2107F}
+
+.item2 img {width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block}
+
+div3 a {text-decoration: none;
+   color: #F59FD4}
+
+div3 li {color: #F59FD4;
+    float: left}
+
+div3 li a {display: block;
+      color: #6E104E;
+      padding: 5px 22px;
+      text-decoration: none;
+      font-size: 15px}
+
+div3 li a:hover {background-color: #C2107F}
+
+div3 ul {list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;  
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    zindex: 1000;
+    overflow: hidden;
+    background-color: #F59FD4}
+
+.image {width: 600px;
+        height: 450px;
+        margin-left: 700px;
+        margin-bottom: 100px;
+        margin-top: -300px}
+
+.image img {width: 100%;
+        height: 100%}
+
+.image2 {width: 600px;
+        height: 450px}
+
+.image2 img {width: 100%;
+        height: 100%;
+        margin-bottom: 300px}
+
+div9 {display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: invisible;
+    margin-bottom: -300px}
+
+div9 img {width: 300px;
+    animation: wackeln 0.8s infinite ease-in-out;
+    transform-origin: center}
+
+@keyframes wackeln {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(5deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }}
+
+.image3 {width: 450px;
+        height: 600px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+        margin-top: -170px}
+
+.image3 img {width: 60%;
+        height: 60%}
+
+.image4 {width: 600px;
+        height: 450px;
+        margin-left: 710px;
+        margin-bottom: 100px;
+        margin-top: -300px}
+
+.image4 img {width: 100%;
+             height: 100%}
+
+.image9 {width: 450px;
+        height: 600px;
+        margin-left: 710px;
+        margin-bottom: 100px;
+        margin-top: -300px}
+
+.image9 img {width: 100%;
+             height: 100%}
+
+.item5 ul li {font-size: 14px;
+   margin-top: 0px;
+   font-family: helvetica;
+   margin-left: 300px;
+   margin-right: 0px;
+   margin-top: -50px;
+   color: #C2107F;
+   list-style-type: none}
+
+
+.container7 {display: flex;
+    gap: 600px;
+   font-family: helvetica;
+   color: #C2107F;
+    font-size: 14px;
+   margin-top: 300px;
+    margin-right: -100px;
+    list-style-type: none}
+
+ul7 li {list-style-type: none;
+       margin-left: 100px;
+       color: #C2107F}
+
+
